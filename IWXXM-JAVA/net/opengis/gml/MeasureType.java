@@ -51,7 +51,8 @@ import javax.xml.bind.annotation.XmlValue;
 public class MeasureType {
 
     @XmlValue
-    protected double value;
+    // protected double value;
+    protected int value;
     @XmlAttribute(name = "uom", required = true)
     protected String uom;
 
@@ -59,7 +60,8 @@ public class MeasureType {
      * Gets the value of the value property.
      * 
      */
-    public double getValue() {
+    // public double getValue() {
+    public int getValue() {
         return value;
     }
 
@@ -67,7 +69,8 @@ public class MeasureType {
      * Sets the value of the value property.
      * 
      */
-    public void setValue(double value) {
+    // public void setValue(double value) {
+    public void setValue(int value) {
         this.value = value;
     }
 

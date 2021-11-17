@@ -6,9 +6,9 @@
 //
 
 @javax.xml.bind.annotation.XmlSchema(
-		namespace = "http://icao.int/iwxxm/3.0", 
+		namespace = "http://icao.int/iwxxm/2021-2", 
 		xmlns = { @javax.xml.bind.annotation.XmlNs( prefix = "iwxxm",
-				  namespaceURI = "http://icao.int/iwxxm/3.0" ),
+				  namespaceURI = "http://icao.int/iwxxm/2021-2" ),
 				  @javax.xml.bind.annotation.XmlNs( prefix = "xlink",
 				  namespaceURI = "http://www.w3.org/1999/xlink" ) },
 		elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
